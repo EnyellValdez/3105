@@ -483,7 +483,7 @@ final class PackageRepositoryStore: ObservableObject {
         sources = [source]
         repositories[source.id] = PackageRepository(
             identifier: "com.yangjiii.3105",
-            name: "3105 Repository",
+            name: "Enyell Repository",
             summary: "Nguồn chính thức cho tweak và wallpaper của 3105.",
             iconURL: nil,
             sourceURL: sourceURL,

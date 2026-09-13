@@ -17,7 +17,7 @@ struct SettingsView: View {
                         AppLogo()
 
                         VStack(alignment: .leading, spacing: 3) {
-                            Text("3105").font(.headline)
+                            Text("Enyell Tools").font(.headline)
                             Text(language.text("common.version", appVersion))
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
@@ -25,6 +25,26 @@ struct SettingsView: View {
                     }
                     .padding(.vertical, 4)
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
+
+                Section {
+                    LabeledContent {
+                        Text("Enyell")
+                            .fontWeight(.bold)
+                            .foregroundStyle(.primary)
+                    } label: {
+                        Label("Usuario Autorizado", systemImage: "person.crop.circle.badge.checkmark")
+                    }
+                    
+                    LabeledContent {
+                        Text("Sistema en línea")
+                            .fontWeight(.bold)
+                            .foregroundStyle(.green)
+                    } label: {
+                        Label("Estado", systemImage: "shield.righthalf.filled")
+                    }
+                }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 Section(language.text("settings.language")) {
                     Picker(language.text("settings.language"), selection: $languageCode) {
@@ -35,6 +55,7 @@ struct SettingsView: View {
                     .pickerStyle(.segmented)
                     .labelsHidden()
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 Section {
                     Toggle(isOn: $cleanerEnabled) {
@@ -51,6 +72,7 @@ struct SettingsView: View {
                 } footer: {
                     Text(language.text("settings.developer_mode_footer"))
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 if WallpaperFeatureSupportPolicy.isSupported(
                     major: AppInfo.versionTuple.major
@@ -70,11 +92,13 @@ struct SettingsView: View {
                         Text(language.text("wallpaper.reset_settings_footer"))
                     }
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 Section(language.text("common.device")) {
                     LabeledContent(language.text("dashboard.hardware_model"), value: AppInfo.displayMachineName)
                     LabeledContent(language.text("settings.ios_version"), value: "\(AppInfo.osVersion) (\(AppInfo.osBuild))")
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 Section {
                     HStack {
@@ -99,8 +123,9 @@ struct SettingsView: View {
                 } header: {
                     Text(language.text("settings.verified_versions"))
                 } footer: {
-                    Text(language.text("settings.supported_versions_footer"))
+                    Text(language.text("settings.verified_versions_footer"))
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 Section(language.text("settings.social_media")) {
                     creditsRow(
@@ -142,6 +167,14 @@ struct SettingsView: View {
                         url: "https://github.com/forcequitOS"
                     )
                 }
+                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
+            }
+            .scrollContentBackground(.hidden)
+            .background {
+                Image("AppBackground")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
             }
             .tint(AppTheme.accent)
             .navigationTitle(language.text("settings.title"))

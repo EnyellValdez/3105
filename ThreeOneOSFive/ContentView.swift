@@ -122,10 +122,7 @@ struct ContentView: View {
     private func sectionContent(_ section: AppSection) -> some View {
         switch section {
         case .home:
-            RepositoryHomeView(
-                onOpenSettings: openSettings,
-                onOpenLogs: openLogs
-            )
+            SettingsView()
         case .new:
             RepositoryNewView(
                 onOpenSettings: openSettings,
@@ -235,7 +232,7 @@ private extension AppSection {
         case .home: return "house.fill"
         case .new: return "clock.fill"
         case .sources: return "shippingbox.fill"
-        case .installed: return "tray.full.fill"
+        case .installed: return "shippingbox.fill"
         case .files: return "folder.fill"
         case .search: return "magnifyingglass"
         }

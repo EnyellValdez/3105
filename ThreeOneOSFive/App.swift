@@ -62,8 +62,8 @@ struct ThreeOneOSFiveApp: App {
                             : .opacity.combined(with: .scale(scale: 0.98))
                     )
                     .zIndex(1)
-                }
             }
+            .preferredColorScheme(.dark)
             .displayIdentityAttribution(isPresented: $showAttribution, enabled: !showOnboarding)
             .sheet(isPresented: $showAttribution) {
                 DisplayAttributionSheet()
