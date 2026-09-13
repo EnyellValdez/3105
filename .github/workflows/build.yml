@@ -1,0 +1,43 @@
+name: Build iOS App
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build IPA
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode.app
+
+      - name: Build App
+        run: |
+          xcodebuild -project ThreeOneOSFive.xcodeproj \
+            -scheme ThreeOneOSFive \
+            -configuration Release \
+            -arch arm64 \
+            -sdk iphoneos \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CONFIGURATION_BUILD_DIR=${PWD}/build \
+            build
+
+      - name: Package IPA
+        run: |
+          mkdir -p Payload
+          # El nombre del archivo .app normalmente coincide con el Target
+          cp -r build/ThreeOneOSFive.app Payload/
+          zip -r ENYELL_TOOLS.ipa Payload
+          
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ENYELL_TOOLS
+          path: ENYELL_TOOLS.ipa
