@@ -115,11 +115,11 @@
 "patch.title" = "补丁";
 "patch.add" = "添加补丁项目";
 "patch.new" = "新建补丁";
-"patch.import" = "导入 .3105";
-"patch.export" = "导出 .3105";
+"patch.import" = "导入 .Enyell TS";
+"patch.export" = "导出 .Enyell TS";
 "patch.edit" = "编辑";
 "patch.empty_title" = "没有补丁项目";
-"patch.empty_message" = "创建项目或导入 .3105 软件包。";
+"patch.empty_message" = "创建项目或导入 .Enyell TS 软件包。";
 "patch.locked_project" = "已锁定的补丁";
 "patch.tap_to_unlock" = "轻点以输入密码";
 "patch.password_protected" = "受密码保护";
@@ -149,7 +149,7 @@
 "patch.workspace_edit_footer" = "创建后，可在“文件”中的 3105 工作区管理完整的 Bundle 目录树。";
 "patch.workspace" = "工作区";
 "patch.open_workspace" = "打开补丁文件";
-"patch.workspace_detail_footer" = "可直接编辑此 Bundle 目录树。应用或导出时会自动同步到加密的 .3105 软件包。";
+"patch.workspace_detail_footer" = "可直接编辑此 Bundle 目录树。应用或导出时会自动同步到加密的 .Enyell TS 软件包。";
 "patch.legacy_footer" = "旧版 v1 补丁，当前版本的 3105 仍可完整使用。";
 "patch.files" = "文件";
 "patch.folders" = "文件夹";
@@ -201,7 +201,7 @@
 "patch.restore_changed_private_message" = "应用后有 %lld 个私密补丁文件发生更改。路径仍会隐藏。3105 将在恢复前保存当前状态。";
 "patch.restore_changed_action" = "仍要恢复";
 "patch.reset_confirm_title" = "重置为软件包内容吗？";
-"patch.reset_confirm_message" = "请先关闭目标应用或游戏。当前运行时更改将替换为此 .3105 软件包最初应用的内容。";
+"patch.reset_confirm_message" = "请先关闭目标应用或游戏。当前运行时更改将替换为此 .Enyell TS 软件包最初应用的内容。";
 "patch.created_message" = "补丁项目已创建。";
 "patch.updated_message" = "补丁项目已更新，密码未更改。";
 "patch.imported_message" = "软件包安装成功。你可以在“已安装”中打开它。";
@@ -210,7 +210,7 @@
 "patch.applied_message" = "所有补丁规则均已应用，原始文件已备份。";
 "patch.restored_message" = "原始文件已恢复。";
 "patch.reset_message" = "所有补丁文件已重置为应用时的软件包状态。";
-"patch.error.unsupported_format" = "这不是有效的 .3105 补丁软件包。";
+"patch.error.unsupported_format" = "这不是有效的 .Enyell TS 补丁软件包。";
 "patch.error.unsupported_version" = "此补丁需要更高版本的 3105。请更新应用后再导入。";
 "patch.error.password_or_corrupt" = "密码不正确，或软件包已被修改。";
 "patch.error.invalid_bundle" = "请输入有效的应用 bundle identifier，而不是容器 UUID。";
@@ -232,7 +232,7 @@
 "patch.error.apply" = "无法应用补丁。之前的所有写入均已回滚。";
 "patch.error.restore" = "无法安全恢复原始文件。未覆盖任何未经验证的目标。";
 "patch.error.reset" = "无法将文件重置为应用时的软件包状态。所有部分写入均已回滚。";
-"patch.error.invalid_import_link" = "补丁导入链接无效。请使用指向 .3105 软件包的安全 HTTPS 链接。";
+"patch.error.invalid_import_link" = "补丁导入链接无效。请使用指向 .Enyell TS 软件包的安全 HTTPS 链接。";
 "patch.error.remote_import" = "无法安全下载补丁。请检查链接后重试。";
 
 "accessibility.open_logs" = "打开日志";
@@ -494,9 +494,9 @@
 "tab.installed" = "已安装";
 "installed.search" = "搜索补丁或壁纸";
 "installed.empty_title" = "尚未安装内容";
-"installed.empty_message" = "导入 .3105 补丁或 .tendies 壁纸包即可开始。";
+"installed.empty_message" = "导入 .Enyell TS 补丁或 .tendies 壁纸包即可开始。";
 "installed.loading" = "正在载入已安装内容…";
-"installed.kind.patch" = "补丁 · .3105";
+"installed.kind.patch" = "补丁 · .Enyell TS";
 "installed.kind.wallpaper" = "壁纸 · .tendies";
 "tab.search" = "搜索";
 "repository.explore" = "探索";
@@ -510,7 +510,7 @@
 "repository.tools_settings_footer" = "启用的工具会显示在“探索”中，不再占用单独的标签页。";
 "repository.open_tool_hint" = "打开此内置工具";
 "repository.no_sources_title" = "没有软件源";
-"repository.no_sources_message" = "添加可信的 HTTPS 软件源以发现 .3105 补丁。";
+"repository.no_sources_message" = "添加可信的 HTTPS 软件源以发现 .Enyell TS 补丁。";
 "repository.no_packages_title" = "没有可用软件包";
 "repository.no_packages_message" = "刷新已启用的软件源，或在“软件源”中检查状态。";
 "repository.featured" = "精选";
@@ -573,7 +573,7 @@
 "repository.error.source_exists" = "此软件源已添加。";
 "repository.error.source_unavailable" = "无法安全下载软件源或软件包。";
 "repository.error.checksum" = "下载的软件包与声明的 SHA-256 或大小不一致。";
-"repository.error.identity" = "下载的 .3105 软件包 UUID 与软件源元数据不一致。";
+"repository.error.identity" = "下载的 .Enyell TS 软件包 UUID 与软件源元数据不一致。";
 "repository.error.incompatible" = "此软件包未声明支持当前 iOS 构建版本。";
 "repository.error.import_unavailable" = "请先完成当前补丁操作，再导入其他软件包。";
 "wallpaper.title" = "壁纸";

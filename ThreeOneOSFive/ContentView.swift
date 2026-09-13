@@ -82,6 +82,12 @@ struct ContentView: View {
                     .tag(section.rawValue)
             }
         }
+        .background(
+            Image("FONDO")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+        )
     }
 
     private var regularLayout: some View {
@@ -122,7 +128,10 @@ struct ContentView: View {
     private func sectionContent(_ section: AppSection) -> some View {
         switch section {
         case .home:
-            SettingsView()
+            RepositoryHomeView(
+                onOpenSettings: openSettings,
+                onOpenLogs: openLogs
+            )
         case .new:
             RepositoryNewView(
                 onOpenSettings: openSettings,

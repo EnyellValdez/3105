@@ -58,7 +58,7 @@
 "dashboard.run_exploit" = "Run Exploit";
 "dashboard.editor_locked" = "The editor unlocks after write access is granted.";
 "dashboard.device_name" = "Device name";
-"dashboard.hardware_model" = "Hardware model";
+"dashboard.hardware_model" = "Modelo de hardware";
 "dashboard.access_footer" = "Access is reported as successful only after the system file opens for reading and writing.";
 "dashboard.unsupported_footer" = "iOS %@ (%@) is outside the verified range. Supported: iOS 17.0–17.7.x, iOS 18.0–18.7.1, iOS 26.0–26.6.1, iOS 27.0 Developer Beta 1–4 and Public Beta 1–2.";
 "dashboard.app_browser" = "App Data Browser";
@@ -76,9 +76,9 @@
 "dashboard.enterprise_signing" = "3105 only works when signed with an enterprise certificate. SideStore, AltStore, 3uTools and LiveContainer are not supported.";
 "dashboard.features" = "Features";
 "dashboard.features_footer" = "Turn on Cleaner or Wallpapers to show it in the app navigation.";
-"tab.home" = "Home";
+"tab.home" = "Inicio";
 "tab.new" = "New";
-"tab.files" = "Files";
+"tab.files" = "Archivos";
 "tab.patches" = "Patches";
 "tab.cleaner" = "Cleaner";
 
@@ -114,9 +114,9 @@
 
 "patch.title" = "Patches";
 "patch.add" = "Add patch project";
-"patch.new" = "New Patch";
-"patch.import" = "Import .Enyell TS";
-"patch.export" = "Export .Enyell TS";
+"patch.new" = "Nuevo Parche";
+"patch.import" = "Importar .Enyell TS";
+"patch.export" = "Exportar .Enyell TS";
 "patch.edit" = "Edit";
 "patch.empty_title" = "No Patch Projects";
 "patch.empty_message" = "Create a project or import a .Enyell TS package.";
@@ -252,7 +252,7 @@
 
 "settings.title" = "Settings";
 "settings.language" = "Language";
-"settings.ios_version" = "iOS Version";
+"settings.ios_version" = "Versión de iOS";
 "settings.exploit_status" = "Exploit Status";
 "settings.support" = "Support";
 "settings.unsupported" = "Unsupported";
@@ -491,7 +491,7 @@
 /* Repository marketplace */
 "tab.explore" = "Explore";
 "tab.sources" = "Sources";
-"tab.installed" = "Patches";
+"tab.installed" = "Parches";
 "installed.search" = "Search patches or wallpapers";
 "installed.empty_title" = "Nothing Installed";
 "installed.empty_message" = "Import a .Enyell TS patch or .tendies wallpaper package to begin.";
@@ -667,3 +667,4 @@
 "settings.developer_mode_footer" = "Developer Mode adds Files to the main navigation. Files can browse and modify application containers.";
 "wallpaper.package_details" = "Package Details";
 "wallpaper.package_files" = "%lld files";
+

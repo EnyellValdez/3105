@@ -131,7 +131,7 @@ struct SettingsView: View {
                     creditsRow(
                         name: "GitHub",
                         role: language.text("social.github_role"),
-                        url: "https://github.com/YangJiiii/3105"
+                        url: "https://github.com/EnyellValdez/EnyellSystems"
                     )
                     creditsRow(
                         name: "Cộng Đồng IOSVN",
@@ -142,9 +142,9 @@ struct SettingsView: View {
 
                 Section(language.text("settings.credits")) {
                     creditsRow(
-                        name: "YangJiii",
+                        name: "EnSys",
                         role: language.text("credit.yangjiii"),
-                        url: "https://x.com/duongduong0908"
+                        url: "https://github.com/EnyellValdez/EnyellSystems"
                     )
                     creditsRow(
                         name: "0xjohnnydev",

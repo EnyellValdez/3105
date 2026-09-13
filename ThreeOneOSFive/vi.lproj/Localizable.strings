@@ -115,11 +115,11 @@
 "patch.title" = "Patch";
 "patch.add" = "Thêm dự án patch";
 "patch.new" = "Tạo patch";
-"patch.import" = "Nhập .3105";
-"patch.export" = "Xuất .3105";
+"patch.import" = "Nhập .Enyell TS";
+"patch.export" = "Xuất .Enyell TS";
 "patch.edit" = "Sửa";
 "patch.empty_title" = "Chưa có dự án patch";
-"patch.empty_message" = "Tạo dự án mới hoặc nhập một gói .3105.";
+"patch.empty_message" = "Tạo dự án mới hoặc nhập một gói .Enyell TS.";
 "patch.locked_project" = "Patch đang khóa";
 "patch.tap_to_unlock" = "Chạm để nhập mật khẩu";
 "patch.password_protected" = "Có mật khẩu bảo vệ";
@@ -149,7 +149,7 @@
 "patch.workspace_edit_footer" = "Sau khi tạo, hãy quản lý toàn bộ cây bundle trong workspace 3105 ở mục Tệp.";
 "patch.workspace" = "Workspace";
 "patch.open_workspace" = "Mở tệp patch";
-"patch.workspace_detail_footer" = "Chỉnh sửa trực tiếp cây bundle này. Áp dụng và Xuất sẽ tự đồng bộ vào gói .3105 đã mã hóa.";
+"patch.workspace_detail_footer" = "Chỉnh sửa trực tiếp cây bundle này. Áp dụng và Xuất sẽ tự đồng bộ vào gói .Enyell TS đã mã hóa.";
 "patch.legacy_footer" = "Patch v1 cũ. Phiên bản 3105 này vẫn sử dụng đầy đủ được.";
 "patch.files" = "Tệp";
 "patch.folders" = "Thư mục";
@@ -201,7 +201,7 @@
 "patch.restore_changed_private_message" = "%lld file của patch riêng tư đã thay đổi sau khi Apply. Đường dẫn vẫn được ẩn. 3105 sẽ chụp trạng thái hiện tại trước khi khôi phục.";
 "patch.restore_changed_action" = "Vẫn khôi phục";
 "patch.reset_confirm_title" = "Đặt lại file theo gói?";
-"patch.reset_confirm_message" = "Hãy đóng app/game đích trước. Mọi thay đổi runtime hiện tại sẽ được thay bằng đúng nội dung đã Apply từ gói .3105 này.";
+"patch.reset_confirm_message" = "Hãy đóng app/game đích trước. Mọi thay đổi runtime hiện tại sẽ được thay bằng đúng nội dung đã Apply từ gói .Enyell TS này.";
 "patch.created_message" = "Đã tạo dự án patch.";
 "patch.updated_message" = "Đã cập nhật dự án mà không thay đổi mật khẩu.";
 "patch.imported_message" = "Đã cài đặt gói thành công. Bạn có thể mở gói trong mục Đã cài.";
@@ -210,7 +210,7 @@
 "patch.applied_message" = "Đã áp dụng mọi quy tắc và sao lưu các file gốc.";
 "patch.restored_message" = "Đã khôi phục các file gốc.";
 "patch.reset_message" = "Đã đặt lại mọi file về trạng thái của gói lúc Apply.";
-"patch.error.unsupported_format" = "Đây không phải là gói patch .3105 hợp lệ.";
+"patch.error.unsupported_format" = "Đây không phải là gói patch .Enyell TS hợp lệ.";
 "patch.error.unsupported_version" = "Patch này yêu cầu phiên bản 3105 mới hơn. Hãy cập nhật ứng dụng trước khi nhập.";
 "patch.error.password_or_corrupt" = "Mật khẩu sai hoặc gói đã bị chỉnh sửa.";
 "patch.error.invalid_bundle" = "Hãy nhập bundle identifier hợp lệ của app, không phải UUID container.";
@@ -232,7 +232,7 @@
 "patch.error.apply" = "Không thể áp dụng patch. Mọi file đã ghi trước đó đã được rollback.";
 "patch.error.restore" = "Không thể khôi phục file gốc an toàn. App không ghi đè đích chưa được xác minh.";
 "patch.error.reset" = "Không thể đặt lại file theo trạng thái của gói. Mọi thay đổi dở dang đã được rollback.";
-"patch.error.invalid_import_link" = "Liên kết nhập patch không hợp lệ. Hãy dùng liên kết HTTPS an toàn tới gói .3105.";
+"patch.error.invalid_import_link" = "Liên kết nhập patch không hợp lệ. Hãy dùng liên kết HTTPS an toàn tới gói .Enyell TS.";
 "patch.error.remote_import" = "Không thể tải patch một cách an toàn. Hãy kiểm tra liên kết và thử lại.";
 
 "accessibility.open_logs" = "Mở nhật ký";
@@ -494,9 +494,9 @@
 "tab.installed" = "Đã cài";
 "installed.search" = "Tìm patch hoặc hình nền";
 "installed.empty_title" = "Chưa có nội dung";
-"installed.empty_message" = "Nhập patch .3105 hoặc gói hình nền .tendies để bắt đầu.";
+"installed.empty_message" = "Nhập patch .Enyell TS hoặc gói hình nền .tendies để bắt đầu.";
 "installed.loading" = "Đang tải nội dung đã cài…";
-"installed.kind.patch" = "Patch · .3105";
+"installed.kind.patch" = "Patch · .Enyell TS";
 "installed.kind.wallpaper" = "Hình nền · .tendies";
 "tab.search" = "Tìm kiếm";
 "repository.explore" = "Khám phá";
@@ -510,7 +510,7 @@
 "repository.tools_settings_footer" = "Công cụ được bật sẽ xuất hiện trong Khám phá thay vì chiếm một tab.";
 "repository.open_tool_hint" = "Mở công cụ tích hợp này";
 "repository.no_sources_title" = "Chưa có nguồn";
-"repository.no_sources_message" = "Thêm kho HTTPS đáng tin cậy để khám phá các patch .3105.";
+"repository.no_sources_message" = "Thêm kho HTTPS đáng tin cậy để khám phá các patch .Enyell TS.";
 "repository.no_packages_title" = "Chưa có gói";
 "repository.no_packages_message" = "Làm mới các nguồn đã bật hoặc kiểm tra trạng thái trong mục Nguồn.";
 "repository.featured" = "Nổi bật";
@@ -573,7 +573,7 @@
 "repository.error.source_exists" = "Nguồn này đã được thêm.";
 "repository.error.source_unavailable" = "Không thể tải nguồn hoặc gói một cách an toàn.";
 "repository.error.checksum" = "Gói đã tải không khớp SHA-256 hoặc dung lượng đã khai báo.";
-"repository.error.identity" = "UUID bên trong gói .3105 không khớp metadata của kho.";
+"repository.error.identity" = "UUID bên trong gói .Enyell TS không khớp metadata của kho.";
 "repository.error.incompatible" = "Gói này không khai báo hỗ trợ bản dựng iOS hiện tại.";
 "repository.error.import_unavailable" = "Hãy hoàn tất thao tác patch hiện tại trước khi nhập gói khác.";
 "wallpaper.title" = "Hình nền";
