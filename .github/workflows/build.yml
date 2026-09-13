@@ -14,9 +14,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode.app
-
       - name: Build App
         run: |
           xcodebuild -project ThreeOneOSFive.xcodeproj \
