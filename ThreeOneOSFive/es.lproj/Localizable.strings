@@ -1,22 +1,22 @@
 "app.subtitle" = "MobileGestalt editor";
 "app.capability_editor" = "MobileGestalt capability editor";
-"common.close" = "Close";
-"common.done" = "Done";
-"common.ok" = "OK";
-"common.cancel" = "Cancel";
-"common.delete" = "Delete";
-"common.clear" = "Clear search";
-"common.failed" = "Failed";
-"common.version" = "Version %@";
-"common.device" = "Device";
-"common.reboot" = "Reboot";
-"common.next" = "Next";
-"common.back" = "Back";
-"common.finish" = "Finish";
+"common.close" = "Cerrar";
+"common.done" = "Hecho";
+"common.ok" = "Aceptar";
+"common.cancel" = "Cancelar";
+"common.delete" = "Eliminar";
+"common.clear" = "Limpiar búsqueda";
+"common.failed" = "Falló";
+"common.version" = "Versión %@";
+"common.device" = "Dispositivo";
+"common.reboot" = "Reiniciar";
+"common.next" = "Siguiente";
+"common.back" = "Atrás";
+"common.finish" = "Finalizar";
 
 "update.title" = "Update available";
 "update.message" = "Enyell TS %@ is available on GitHub.";
-"update.agree" = "OK";
+"update.agree" = "Aceptar";
 "update.dismiss" = "Don't show again";
 "patch.error.wrong_password" = "Incorrect password.";
 
@@ -31,8 +31,8 @@
 "onboarding.language_title" = "Choose your language";
 "onboarding.language_subtitle" = "You can change this later in Settings.";
 "onboarding.language_hint" = "Selected: %@";
-"onboarding.welcome_title" = "Welcome to Enyell TS";
-"onboarding.welcome_message" = "Developed by Enyell";
+"onboarding.welcome_title" = "Bienvenido a Enyell TS";
+"onboarding.welcome_message" = "Desarrollado por Enyell";
 "onboarding.welcome_badge" = "Official Enyell TS identity";
 "onboarding.versions_title" = "Supported iOS versions";
 "onboarding.versions_subtitle" = "Enyell TS is verified on the ranges below. Unsupported builds are blocked.";
@@ -74,15 +74,15 @@
 "dashboard.kernel_active" = "Active";
 "dashboard.kernel_inactive" = "Inactive";
 "dashboard.enterprise_signing" = "3105 only works when signed with an enterprise certificate. SideStore, AltStore, 3uTools and LiveContainer are not supported.";
-"dashboard.features" = "Features";
+"dashboard.features" = "Funciones";
 "dashboard.features_footer" = "Turn on Cleaner or Wallpapers to show it in the app navigation.";
 "tab.home" = "Inicio";
-"tab.new" = "New";
+"tab.new" = "Nuevo";
 "tab.files" = "Archivos";
 "tab.patches" = "Patches";
-"tab.cleaner" = "Cleaner";
+"tab.cleaner" = "Limpiador";
 
-"cleaner.title" = "Cleaner";
+"cleaner.title" = "Limpiador";
 "cleaner.limited_mode" = "Limited Cleanup";
 "cleaner.available" = "Available to clean";
 "cleaner.selected" = "Selected";
@@ -151,7 +151,7 @@
 "patch.open_workspace" = "Open Patch Files";
 "patch.workspace_detail_footer" = "Edit this bundle tree directly. Apply and Export automatically synchronize it into the encrypted .Enyell TS package.";
 "patch.legacy_footer" = "Legacy v1 patch. It remains fully usable in this version of Enyell TS.";
-"patch.files" = "Files";
+"patch.files" = "Archivos";
 "patch.folders" = "Folders";
 "patch.rules" = "Rules";
 "patch.add_rule" = "Add Rule";
@@ -236,7 +236,7 @@
 "patch.error.remote_import" = "The patch could not be downloaded securely. Check the link and try again.";
 
 "accessibility.open_logs" = "Open logs";
-"accessibility.open_settings" = "Open settings";
+"accessibility.open_settings" = "Abrir ajustes";
 "accessibility.requesting_access" = "Requesting exploit access";
 "accessibility.open_editor_hint" = "Opens the MobileGestalt feature editor";
 "accessibility.run_exploit_hint" = "Requests write access required by the Gestalt editor";
@@ -250,16 +250,16 @@
 "status.unsupported_reason" = "Unsupported: %@";
 "method.simulator_preview" = "Simulator preview";
 
-"settings.title" = "Settings";
-"settings.language" = "Language";
+"settings.title" = "Ajustes";
+"settings.language" = "Idioma";
 "settings.ios_version" = "Versión de iOS";
-"settings.exploit_status" = "Exploit Status";
-"settings.support" = "Support";
-"settings.unsupported" = "Unsupported";
-"settings.supported" = "Supported";
-"settings.compatibility" = "Compatibility";
-"settings.current_version" = "Current version";
-"settings.verified_versions" = "Verified versions";
+"settings.exploit_status" = "Estado de Exploit";
+"settings.support" = "Soporte";
+"settings.unsupported" = "No compatible";
+"settings.supported" = "Compatible";
+"settings.compatibility" = "Compatibilidad";
+"settings.current_version" = "Versión actual";
+"settings.verified_versions" = "Versiones verificadas";
 "settings.beta_build" = "Beta %lld · %@";
 "settings.developer_beta_build" = "Developer Beta %lld · %@";
 "settings.developer_public_beta_build" = "Developer Beta %lld / Public Beta %lld · %@";
@@ -277,8 +277,8 @@
 "settings.sandbox_token" = "Sandbox Token";
 "settings.generate_token" = "Generate Token";
 "settings.token_footer" = "Available after exploit access succeeds.";
-"settings.credits" = "Credits";
-"settings.social_media" = "Social media";
+"settings.credits" = "Créditos";
+"settings.social_media" = "Redes sociales";
 "social.github_role" = "Enyell source code";
 "social.iosvn_role" = "iOSVN Community";
 "credit.yangjiii" = "Developer & designer";
@@ -407,7 +407,7 @@
 "browser.name_placeholder" = "Name";
 "browser.name_message" = "Names cannot contain a slash or control characters.";
 "browser.rename" = "Rename";
-"browser.delete" = "Delete";
+"browser.delete" = "Eliminar";
 "browser.delete_title" = "Delete this item?";
 "browser.delete_message" = "“%@” and its contents will be permanently deleted.";
 "browser.file_actions_hint" = "Touch and hold for file actions.";
@@ -486,7 +486,7 @@
 "browser.tab_name_message" = "Enter a name for this tab.";
 "browser.open_new_tab" = "Open in New Tab";
 
-"tab.wallpapers" = "Wallpapers";
+"tab.wallpapers" = "Fondos de pantalla";
 
 /* Repository marketplace */
 "tab.explore" = "Explore";
@@ -498,10 +498,10 @@
 "installed.loading" = "Loading installed items…";
 "installed.kind.patch" = "Patch · .Enyell TS";
 "installed.kind.wallpaper" = "Wallpaper · .tendies";
-"tab.search" = "Search";
+"tab.search" = "Buscar";
 "repository.explore" = "Explore";
 "repository.sources" = "Sources";
-"repository.search" = "Search";
+"repository.search" = "Buscar";
 "repository.built_in_tools" = "Built-in Tools";
 "repository.cleaner_subtitle" = "Review and remove app cache and temporary files.";
 "repository.wallpaper_subtitle" = "Import and manage PosterBoard wallpaper packages.";
@@ -576,7 +576,7 @@
 "repository.error.identity" = "The downloaded .Enyell TS package UUID does not match the repository metadata.";
 "repository.error.incompatible" = "This package does not declare support for the current iOS build.";
 "repository.error.import_unavailable" = "Finish the current patch operation before importing another package.";
-"wallpaper.title" = "Wallpapers";
+"wallpaper.title" = "Fondos de pantalla";
 "wallpaper.access" = "PosterBoard Access";
 "wallpaper.access_ready" = "Ready to install";
 "wallpaper.access_read_only" = "Write check failed";
@@ -611,7 +611,7 @@
 "wallpaper.install_warning_message" = "Apply “%@” with %lld wallpapers on iOS %@ (%@)? Existing wallpapers stay unchanged.";
 "wallpaper.installed_by_3105" = "Wallpapers added by Enyell";
 "wallpaper.custom_count" = "Added wallpapers";
-"wallpaper.reset" = "Reset Collections";
+"wallpaper.reset" = "Restablecer colecciones";
 "wallpaper.reset_footer" = "Removes custom collections, including ones added by other tools. Apple default collections are kept.";
 "wallpaper.reset_title" = "Reset custom wallpapers?";
 "wallpaper.reset_message" = "Remove %lld custom wallpapers? Apple default collections stay. Custom wallpapers from other tools are also removed.";
@@ -649,12 +649,12 @@
 "wallpaper.error.install" = "Installation failed and any descriptors added during this attempt were rolled back.";
 "wallpaper.error.restore" = "3105 could not safely remove every descriptor from this installation.";
 "wallpaper.error.unknown" = "An unexpected error occurred. Review Session Logs for details.";
-"repository.for_you" = "For You";
-"repository.new" = "New";
+"repository.for_you" = "Para ti";
+"repository.new" = "Nuevo";
 "repository.new_empty_title" = "No New Packages";
 "repository.new_empty_message" = "Packages with a publishedAt date appear here, newest first.";
 "repository.published" = "Published";
-"repository.more_patches" = "More Packages";
+"repository.more_patches" = "Más paquetes";
 "repository.utilities" = "Utilities";
 "repository.home_no_sources_message" = "Add a source to fill Home with image-led Enyell patches.";
 "repository.home_package_meta" = "%@ · %@";
@@ -663,7 +663,7 @@
 "repository.source_tags" = "Tags";
 "repository.all_source_packages" = "All Packages";
 "repository.source_empty" = "This source has no available packages. Enable or refresh it and try again.";
-"settings.developer_mode" = "Developer Mode";
+"settings.developer_mode" = "Modo Desarrollador";
 "settings.developer_mode_footer" = "Developer Mode adds Files to the main navigation. Files can browse and modify application containers.";
 "wallpaper.package_details" = "Package Details";
 "wallpaper.package_files" = "%lld files";

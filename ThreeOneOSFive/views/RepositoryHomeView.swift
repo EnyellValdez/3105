@@ -9,29 +9,29 @@ struct RepositoryHomeView: View {
     let onOpenSettings: () -> Void
     let onOpenLogs: () -> Void
 
-    var body: some View {
+        var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVStack(alignment: .leading, spacing: 28) {
-                    if feed.isEmpty {
-                        emptyContent
-                    } else {
-                        featuredFeed
-                        recentPackages
-                    }
-
+                VStack(spacing: 20) {
+                    Spacer().frame(height: 100)
+                    AppLogo()
+                    Text("Bienvenido a Enyell TS")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.white)
+                    Text("El sistema en línea está activo.")
+                        .font(.subheadline)
+                        .foregroundStyle(.white.opacity(0.8))
                 }
-                .frame(maxWidth: 720)
                 .frame(maxWidth: .infinity)
-                .padding(.horizontal, AppTheme.contentCardInset)
-                .padding(.top, 16)
-                .padding(.bottom, 32)
             }
-            .background(Color(uiColor: .systemGroupedBackground))
-            .refreshable {
-                await store.refreshAllAndWait()
-                rebuildFeed()
-            }
+            .scrollContentBackground(.hidden)
+            .background(
+                Image("AppBackground")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+            )
             .navigationTitle("Enyell TS")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -40,18 +40,6 @@ struct RepositoryHomeView: View {
                     onOpenSettings: onOpenSettings,
                     onOpenLogs: onOpenLogs
                 )
-            }
-            .navigationDestination(for: RepositoryPackageRecord.self) { record in
-                RepositoryPackageDetailView(record: record)
-            }
-            .onAppear {
-                store.refreshAllIfNeeded()
-                if feed.isEmpty {
-                    rebuildFeed()
-                }
-            }
-            .onChange(of: store.packages) { _ in
-                rebuildFeed()
             }
         }
     }
