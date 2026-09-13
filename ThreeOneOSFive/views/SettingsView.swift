@@ -91,8 +91,8 @@ struct SettingsView: View {
                     } footer: {
                         Text(language.text("wallpaper.reset_settings_footer"))
                     }
+                    .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
                 }
-                .listRowBackground(Color.black.opacity(0.3).background(Material.ultraThinMaterial))
 
                 Section(language.text("common.device")) {
                     LabeledContent(language.text("dashboard.hardware_model"), value: AppInfo.displayMachineName)
