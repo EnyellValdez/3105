@@ -83,7 +83,7 @@ struct ContentView: View {
             }
         }
         .background(
-            Image("FONDO")
+            Image("AppBackground")
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
