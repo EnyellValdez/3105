@@ -15,12 +15,12 @@
 "common.finish" = "Finish";
 
 "update.title" = "Update available";
-"update.message" = "Enyell Tools %@ is available on GitHub.";
+"update.message" = "Enyell TS %@ is available on GitHub.";
 "update.agree" = "OK";
 "update.dismiss" = "Don't show again";
 "patch.error.wrong_password" = "Incorrect password.";
 
-"attribution.title" = "About Enyell Tools";
+"attribution.title" = "About Enyell TS";
 "attribution.subtitle" = "Project information";
 "attribution.link_section" = "Project link";
 "attribution.url" = "URL";
@@ -31,20 +31,20 @@
 "onboarding.language_title" = "Choose your language";
 "onboarding.language_subtitle" = "You can change this later in Settings.";
 "onboarding.language_hint" = "Selected: %@";
-"onboarding.welcome_title" = "Welcome to Enyell Tools";
+"onboarding.welcome_title" = "Welcome to Enyell TS";
 "onboarding.welcome_message" = "Developed by Enyell";
-"onboarding.welcome_badge" = "Official Enyell Tools identity";
+"onboarding.welcome_badge" = "Official Enyell TS identity";
 "onboarding.versions_title" = "Supported iOS versions";
-"onboarding.versions_subtitle" = "Enyell Tools is verified on the ranges below. Unsupported builds are blocked.";
+"onboarding.versions_subtitle" = "Enyell TS is verified on the ranges below. Unsupported builds are blocked.";
 "onboarding.versions_footer" = "This device: iOS %@ (%@)";
 "onboarding.beta" = "Beta";
 "onboarding.developer_beta" = "Developer Beta %@";
 "onboarding.public_beta" = "Public Beta %@";
 "onboarding.install_title" = "Certificate requirements";
-"onboarding.install_message" = "Enyell Tools requires a supported signing method to access device features.";
+"onboarding.install_message" = "Enyell TS requires a supported signing method to access device features.";
 "onboarding.install_ok" = "Works with enterprise certificates, including eSign and similar enterprise installs.";
 "onboarding.install_bad" = "Does not work with SideStore, AltStore, 3uTools or LiveContainer.";
-"onboarding.install_jailbreak" = "On iOS 17 through iOS 18.7.1, Enyell Tools will not work if the device is jailbroken.";
+"onboarding.install_jailbreak" = "On iOS 17 through iOS 18.7.1, Enyell TS will not work if the device is jailbroken.";
 "onboarding.install_footer" = "Use a supported certificate on a non-jailbroken device before continuing.";
 
 "dashboard.exploit_access" = "Exploit access";
@@ -101,7 +101,7 @@
 "cleaner.clean_button" = "Clean %@";
 "cleaner.cleaning" = "Cleaning…";
 "cleaner.confirm_title" = "Delete temporary data?";
-"cleaner.confirm_message" = "Enyell Tools will permanently delete Library/Caches and tmp from %lld selected apps (%@). Close those apps first. They may open more slowly while rebuilding caches. This cannot be undone.";
+"cleaner.confirm_message" = "Enyell TS will permanently delete Library/Caches and tmp from %lld selected apps (%@). Close those apps first. They may open more slowly while rebuilding caches. This cannot be undone.";
 "cleaner.confirm_action" = "Clean Now";
 "cleaner.result_title" = "Cleanup Finished";
 "cleaner.result_message" = "Freed %@ by removing %lld files. %lld items or apps could not be cleaned.";
@@ -150,7 +150,7 @@
 "patch.workspace" = "Workspace";
 "patch.open_workspace" = "Open Patch Files";
 "patch.workspace_detail_footer" = "Edit this bundle tree directly. Apply and Export automatically synchronize it into the encrypted .Enyell TS package.";
-"patch.legacy_footer" = "Legacy v1 patch. It remains fully usable in this version of Enyell Tools.";
+"patch.legacy_footer" = "Legacy v1 patch. It remains fully usable in this version of Enyell TS.";
 "patch.files" = "Files";
 "patch.folders" = "Folders";
 "patch.rules" = "Rules";
@@ -211,7 +211,7 @@
 "patch.restored_message" = "The original files were restored.";
 "patch.reset_message" = "All patch files were reset to the applied package state.";
 "patch.error.unsupported_format" = "This is not a valid .Enyell TS patch package.";
-"patch.error.unsupported_version" = "This patch requires a newer version of Enyell Tools. Update the app before importing it.";
+"patch.error.unsupported_version" = "This patch requires a newer version of Enyell TS. Update the app before importing it.";
 "patch.error.password_or_corrupt" = "The password is incorrect or the package was modified.";
 "patch.error.invalid_bundle" = "Enter a valid app bundle identifier, not a container UUID.";
 "patch.error.unsafe_path" = "The target must be a safe path relative to the app data container.";
@@ -566,7 +566,7 @@
 "repository.source_url_footer" = "Enter the full HTTPS URL to a version 1 repository JSON manifest.";
 "repository.add" = "Add";
 "repository.error.insecure_url" = "Use a public HTTPS repository URL without credentials, local hosts, or IP addresses.";
-"repository.error.unsupported_schema" = "This repository requires a newer version of Enyell Tools.";
+"repository.error.unsupported_schema" = "This repository requires a newer version of Enyell TS.";
 "repository.error.invalid_manifest" = "The repository manifest is invalid or too large.";
 "repository.error.invalid_package" = "The repository contains invalid package metadata.";
 "repository.error.duplicate_package" = "The repository contains duplicate package identifiers or UUIDs.";
