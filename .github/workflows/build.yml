@@ -30,10 +30,10 @@ jobs:
         run: |
           mkdir -p Payload
           cp -r build/*.app Payload/
-          zip -r ENYELL_TOOLS.ipa Payload
+          zip -r Enyell_TS.ipa Payload
           
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ENYELL_TOOLS
-          path: ENYELL_TOOLS.ipa
+          name: Enyell_TS
+          path: Enyell_TS.ipa
