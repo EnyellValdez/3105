@@ -17,7 +17,7 @@ jobs:
       - name: Build App
         run: |
           xcodebuild -project ThreeOneOSFive.xcodeproj \
-            -scheme ThreeOneOSFive \
+            -scheme 3105 \
             -configuration Release \
             -arch arm64 \
             -sdk iphoneos \
@@ -29,8 +29,7 @@ jobs:
       - name: Package IPA
         run: |
           mkdir -p Payload
-          # El nombre del archivo .app normalmente coincide con el Target
-          cp -r build/ThreeOneOSFive.app Payload/
+          cp -r build/3105.app Payload/
           zip -r ENYELL_TOOLS.ipa Payload
           
       - name: Upload Artifact
